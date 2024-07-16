@@ -1,0 +1,85 @@
+
+
+
+h1 {
+    color: rgb(190, 190, 235);
+    background-color: rgb(77, 52, 134);
+    border: 1px solid black;
+  }
+  
+p {
+  color: rgba(41, 30, 78, 0.979);
+}
+
+body {
+  background-color: #9fd1e04d;
+}
+nav {
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  /* background-color: #F189EC
+; */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(255, 72, 231, 0.1);
+}nav button {
+  font-family: "Pacifico", cursive;
+  color: #000500
+; /* Couleur du texte des boutons */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Padding interne des boutons */
+  margin: 0 15px; /* Espacement horizontal entre les boutons */
+  border-radius: 5px; /* Coins arrondis pour les boutons */
+  cursor: pointer; /* Curseur de la souris pour les boutons */
+  font-size: 25px; /* Taille de la police des boutons */
+}
+button:nth-child(1) {
+  background-color: #4DE7FC
+;
+}
+button:nth-child(2) {
+  background-color: #F583A3
+;
+}
+button:nth-child(3) {
+  background-color: #FEB7CC
+;
+}
+nav button:hover {
+  background-color: #CEDAF5
+; /* Couleur de fond au survol */
+}
+.item-gallery {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: hsla(270, 49%, 82%, 0.925);
+}
+f
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  width: 300px;
+  border: 1px solid black;
+
+
+  .box {
+    background:
+      linear-gradient(
+          105deg,
+          rgba(255, 255, 255, 0.2) 39%,
+          rgba(51, 56, 57, 1) 96%
+        )
+        center center / 400px 200px no-repeat,
+      url(src="{{url_for('static', filename='img/sumarine.jpg')}}") center no-repeat,
+      rebeccapurple;
+  }
+  
